@@ -1,5 +1,5 @@
 {
-  "name": "test-webpack",
+  "name": "react-starter-manually",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skusebauch/test-webpack.git"
+    "url": "git+https://github.com/skusebauch/react-starter-manually.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/skusebauch/test-webpack/issues"
+    "url": "https://github.com/skusebauch/react-starter-manually/issues"
   },
-  "homepage": "https://github.com/skusebauch/test-webpack#readme",
+  "homepage": "https://github.com/skusebauch/react-starter-manually#readme",
   "dependencies": {
     "webpack": "^4.44.1",
     "webpack-dev-server": "^3.11.0"
