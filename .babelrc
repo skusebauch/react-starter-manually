@@ -1,0 +1,16 @@
+// what shall babel do with our js files - which we declared in webpack config that babels should take care of all js files
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          // compile the code for these browser - check the docs
+          "browsers": ["> 1%", "last 2 versions"]
+        }
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}

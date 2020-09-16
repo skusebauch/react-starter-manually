@@ -2,7 +2,7 @@
 const path = require("path");
 
 module.export = {
-  mode: "development"
+  mode: "development",
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -10,4 +10,14 @@ module.export = {
     publicPath: "",
   },
   devtool: "cheap-module-eval-source-map",
+  module: {
+    rules: [
+      {
+        // all files which end with js will affected -> babel
+        test: /\.js$/,
+        loader: "babel-loader",
+        exclude: /node_modules/,
+      },
+    ],
+  },
 };
