@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 
 import Users from "./containers/Users";
 // lazy load
@@ -28,3 +28,5 @@ class App extends Component {
     );
   }
 }
+
+export default App;
