@@ -6,4 +6,6 @@
 
 body {
   font-family: sans-serif;
+  /*  1rem = 10px */
+  font-size: 62.5%;
 }
